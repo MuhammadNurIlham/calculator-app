@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Css Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <!-- link font google -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Orbitron:wght@500&family=Pacifico&family=Poppins&family=Source+Serif+4:opsz@8..60&display=swap"
+        rel="stylesheet">
+    <!-- link header style css internal -->
+    <link rel="stylesheet" href="index.css">
+    <title>CalculatorApp | Muhammad Nurilham</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <!-- <nav>
+        <div class="left">
+            <ul>
+                <li>
+                    <a href="#" onclick="brand()">Muhammad Nurilham</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li>
+                    <a href="#" onclick="project()">Project</a>
+                </li>
+            </ul>
+            <button onclick="contact()">
+                <a href="#">Contact Me</a>
+            </button>
+        </div>
+    </nav> -->
+    <nav>
+        <div class="logo">
+            <h4 onclick="brand()">Muhammad Nur Ilham</h4>
+        </div>
+        <ul>
+            <li>
+                <a href="#" onclick="project()">Project</a>
+            </li>
+            <li>
+                <a href="#" onclick="contact()">Contact</a>
+            </li>
+        </ul>
+        <!-- <div class="menu-toggle">
+            <input type="checkbox" name="" id="">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> -->
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Start Calculator -->
+    <h2 id="title-content">My Calculator App</h2>
+    <div class="container">
+        <!-- Left Side -->
+        <div id="setting" class="dark-out">
+            <div class="setting-head dark-in">Setting</div>
+            <div class="setting-content">
+                <h3>Mode</h3>
+                <div class="btn dark-out">Light</div>
+                <div class="btn dark-out">Dark</div>
+                <h3>Font Calculator</h3>
+                <div class="btn dark-out">Default</div>
+                <div class="btn dark-out">Digital</div>
+                <h3>History</h3>
+                <div class="btn dark-out">Clear History</div>
+            </div>
+        </div>
+        <!-- End Left Side -->
+        <!-- Center/Calculator -->
+        <div id="calculator" class="dark-out">
+            <div class="display dark-out">0</div>
+            <div class="keypad">
+                <div class="btn numpad dark-out clear">AC</div>
+                <div class="btn numpad dark-out invers">+/-</div>
+                <div class="btn numpad dark-out percent">%</div>
+                <div class="btn numpad dark-out operator">/</div>
+                <div class="btn numpad dark-out">7</div>
+                <div class="btn numpad dark-out">8</div>
+                <div class="btn numpad dark-out">9</div>
+                <div class="btn numpad dark-out operator">*</div>
+                <div class="btn numpad dark-out">4</div>
+                <div class="btn numpad dark-out">5</div>
+                <div class="btn numpad dark-out">6</div>
+                <div class="btn numpad dark-out operator">-</div>
+                <div class="btn numpad dark-out">1</div>
+                <div class="btn numpad dark-out">2</div>
+                <div class="btn numpad dark-out">3</div>
+                <div class="btn numpad dark-out operator">+</div>
+                <div class="btn numpad dark-out">.</div>
+                <div class="btn numpad dark-out">0</div>
+                <div class="btn numpad dark-out del">DEL</div>
+                <div class="btn numpad dark-out equals">=</div>
+            </div>
+        </div>
+        <!--End Center/Calculator-->
+
+        <!-- Right Side -->
+        <div id="history" class="dark-out">
+            <div class="history-head dark-in">History</div>
+            <div class="history-content">
+                <p>1+1=2</p>
+            </div>
+        </div>
+        <!-- End Right Side -->
+    </div>
+    <!-- End Calculator -->
+
+
+
+
+    <script src="index.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script> -->
+</body>
+
+</html>

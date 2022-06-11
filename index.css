@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #091921;
+    font-family: 'Montserrat';
+    color: cyan;
+    overflow-x: hidden;
+    /* text-align: center; */
+    /* margin: 20px auto; */
+}
+
+/* Start styling Navbar */
+nav {
+    display: flex;
+    background-color: #092533;
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    color: aqua;
+    height: 50px;
+    align-items: center;
+    border: none;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+nav .logo {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+
+}
+
+nav .logo h4 {
+    cursor: pointer;
+}
+
+nav .logo h4:hover {
+    color: rgb(225, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 15%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: rgb(225, 255, 255);
+}
+
+/* Hamburger Menu atau Toggle */
+/* .menu-toggle{
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+    background-color: gray;
+} */
+
+/* .menu-toggle input{
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5px;
+    top: -3px;
+    opacity: 0;
+    z-index: 2;
+    cursor: pointer;
+} */
+
+/* .menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: aqua;
+    border-radius: 3px;
+    transition: all 0.5s;
+} */
+
+/* Hamburger Menu Animation */
+/* .menu-toggle span:nth-child(2) {
+    background-color: red;
+    transform-origin: 0 0;
+} */
+/* .menu-toggle span:nth-child(4) {
+    background-color: red;
+    transform-origin: 0 100%;
+} */
+
+/* .menu-toggle input:checked ~ span:nth-child(2) {
+    background-color: rgb(225, 255, 255);
+   transform: rotate(45deg) translate(-1px, -1px);
+}
+.menu-toggle input:checked ~ span:nth-child(4) {
+    background-color: rgb(225, 255, 255);
+   transform: rotate(-45deg) translate(-1px, -1px);
+}
+.menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+   transform: scale(0) translate(-1px, -1px);
+} */
+
+/* RESPONSIVE NAVBAR Break Point*/
+/* Ukuran Tablet */
+@media screen and (max-width: 768px) {
+
+    /* .menu-toggle{
+        display: flex;
+    } */
+    nav ul {
+        width: 20%;
+        /* display: none; */
+    }
+}
+
+/* Ukuran Mobile */
+@media screen and (max-width: 576px) {
+
+    /* .menu-toggle{
+        display: flex;
+    } */
+    /* nav ul {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        z-index: -1;
+        width: 50%;
+        background-color: rgb(15, 75, 75);
+        color: aqua;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    } */
+    nav ul {
+        width: 25%;
+        justify-content: space-around;
+    }
+
+    /* nav ul.slide {
+        transform: translateX(0);
+    } */
+
+    /* #calculator{
+        z-index: -2;
+    }
+    #title-content{
+        z-index: 100;
+    } */
+}
+
+
+
+/* nav {
+    display: flex;
+    background-color: #00547e;
+    height: 9vh;
+}
+
+ nav .left {
+    padding: 10px;
+    flex: 50%;
+    padding-left: 90px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+ }
+
+nav .left li {
+    display: inline;
+}
+
+nav .left ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+} .left a:hover{
+    color:chartreuse;
+}
+
+nav .right {
+    flex: 50%;
+    padding: 10px;
+    padding-right: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: hotpink;
+}
+
+nav .right li {
+    display: inline;
+}
+nav .right ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+nav .right button a {
+    text-decoration: none;
+    color: #091921;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.right button {
+    border: none;
+    background-color:darkorange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.right button:hover{
+    background-color:darkturquoise;
+    color: #091921;
+    font-weight: bold;
+} .right button a:hover {
+    color: #091921;
+} .right a:hover{
+    color: chartreuse;
+} */
+
+/* Akhir Styling Navbar */
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+/* Setting */
+#setting {
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 5px;
+    padding: 10px;
+    width: 100%;
+    order: 3;
+}
+
+.setting-head {
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.setting-content div {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Calculator */
+
+#calculator {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Orbitron';
+    box-sizing: border-box;
+    width: 60%;
+    order: 1;
+}
+
+.display {
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    text-align: right;
+    padding-right: 20px;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border-radius: 10px; */
+    line-height: 50px;
+    font-size: 20px;
+    gap: 10px;
+}
+
+.btn {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* HISTORY */
+#history {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 30%;
+    order: 1;
+}
+
+.history-head {
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.history-content {
+    margin: 15px;
+    line-height: 50px;
+}
+
+.history-content p {
+    border-bottom: 1px solid white;
+}
+
+
+/* THEMES */
+
+.dark-out {
+    background-color: #091921;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, .1),
+        2px 2px 6px rgba(0, 0, 0, .8);
+}
+
+.dark-in {
+    background-color: #091921;
+    box-shadow: inset -1px -1px 3px rgba(255, 255, 255, .1),
+        inset 2px 2px 6px rgba(0, 0, 0, .8);
+}
+
+.dark-out.btn:active {
+    background-color: #091921;
+    box-shadow: inset -1px -1px 3px rgba(255, 255, 255, .1),
+        inset 2px 2px 6px rgba(0, 0, 0, .8);
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+.light-out {
+    background-color: #ececec;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, .55),
+        2px 2px 6px rgba(70, 70, 70, .12);
+}
+
+.light-in {
+    background-color: #ececec;
+    box-shadow: inset -1px -1px 3px rgba(255, 255, 255, .55),
+        inset 2px 2px 6px rgba(70, 70, 70, .12);
+}
+
+.light-out.btn:active {
+    background-color: #ececec;
+    box-shadow: inset -1px -1px 3px rgba(255, 255, 255, .55),
+        inset 2px 2px 6px rgba(70, 70, 70, .12);
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 800px) {
+    #setting {
+        flex: 1;
+        order: 1;
+    }
+
+    #calculator {
+        flex: 2;
+        order: 2;
+    }
+
+    #history {
+        flex: 1;
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #setting,
+    #calculator,
+    #history {
+        width: 100%;
+    }
+}
