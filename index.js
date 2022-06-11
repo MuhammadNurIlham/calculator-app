@@ -13,7 +13,7 @@ function project() {
 function contact() {
     alert("Pengen tau Wa nya yaa??\nNggaa ada 🤣🤣");
     alert("Awas muncul lagi😁😋");
-    alert("don't forget to smile");
+    alert("don't forget to smile😊😊🤗😉");
 }
 
 
