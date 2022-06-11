@@ -1,6 +1,6 @@
 // Navbar Alert
 function brand() {
-    alert("Cari apa???\nNgga ada apa apa disini, Klik Oke ajaa😪😪😪");
+    alert("Cari apa???\nNgga ada apa apa disini, Klik Oke ajaa😪😪");
     alert("Kok Muncul Lagi??\nKlik Oke lagi🙄🤨");
     alert("Yahh Muncul Lagii😁😋");
     alert("have a nice day🥰🥰");
@@ -11,7 +11,7 @@ function project() {
     alert("good luck🤗😉");
 }
 function contact() {
-    alert("Pengen tau Wa nya yaa??\nNggaa ada 🤣🤣");
+    alert("Pengen tau kontaknya yaa??\nNggaa ada 🤣🤣");
     alert("Awas muncul lagi😁😋");
     alert("don't forget to smile😊😊🤗😉");
 }
